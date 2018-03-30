@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<style>
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+</style>
+
+   <body>
+
+     Result of query : {{ msg }}
+     <h2><a href = "\">go back to home page</a></h2>
+
+     <h2>Player: {{rows["header"][0]}}</h2>
+     <b>{{rows["header"][1]}}</b></br>
+       &emsp; larger = higher estimated skill: boom is 50+, new-comers are ~10</br>
+     <b>{{rows["header"][3]}}</b></br>
+       &emsp; smaller = more confidence that power level is accurate:</br>
+       &emsp; acc < 1 is high confidence, 2 is reasonably confident, 3+ not enough data to be confident
+
+
+
+     <h3>Tournament list:</h3>
+     <table>
+       <tr>
+         <th>Event</th>
+         <th>Date</th>
+         <th>Entrants</th>
+       </tr>
+       {% for full_tourney in rows["tournaments"] %}
+           <tr>
+             {% for item in full_tourney["header"] %}
+              <td> {{ item }} </td>
+              {% endfor %}
+           </tr>
+        {% endfor %}
+     </table>
+
+
+     <h4>=======================================</h4>
+     <h3>List all archived tournament matches for {{rows["header"][0]}} </h3>
+     <h4>=======================================</h4>
+    Tournaments are ordered with most recent appearing first.</br>
+    Matches are ordered with highest rated opponent listed first.</br>
+
+      {% for full_tourney in rows["tournaments"] %}
+          --------------------------------------
+          <h3> {{full_tourney["header"][0]}} ..... {{full_tourney["header"][1]}} </h3>
+
+          <h4>{{"Wins: "}} </h4>
+          <table>
+            {% for match in full_tourney["wins"] %}
+                  <tr>
+                    {% for item in match %}
+                        <td> {{ item }} </td>
+                    {% endfor %}
+                  </tr>
+            {% endfor %}
+          </table>
+
+
+          <h4>{{"Losses: "}} </h4>
+          <table>
+            {% for match in full_tourney["losses"] %}
+                  <tr>
+                    {% for item in match %}
+                        <td> {{ item }} </td>
+                    {% endfor %}
+                  </tr>
+            {% endfor %}
+          </table>
+
+      {% endfor %}
+
+   </body>
+</html>
