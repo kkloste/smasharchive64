@@ -7,6 +7,14 @@ import obtain_player_stats
 def home():
     return render_template('home.html')
 
+@app.route('/singles')
+def singles():
+    return render_template('singlessearch.html')
+
+@app.route('/htoh')
+def htoh():
+    return render_template('headtohead.html')
+
 # @app.route('/failed')
 # def failed():
 #     return render_template('failed.html')
@@ -22,6 +30,25 @@ def list():
         else:
             msg = "Successful retrieval"
             return render_template("list.html",msg = msg,rows = player_record)
+
+@app.route('/listhtoh',methods = ['POST'])
+def listhtoh():
+    msg = "No record of player in database. Pwned."
+    nmone = request.form['nmone']
+    nmtwo = request.form['nmtwo']
+    match_record = obtain_player_stats.get_headtohead(nmone,nmtwo);
+    if match_record == None:
+        return render_template("failed.html",msg = msg)
+    else:
+        msg = "Successful retrieval"
+        return render_template("listhtoh.html",msg = msg,rows = match_record)
+
+@app.route('/scouter',methods = ['GET'])
+def scouter():
+    match_record = obtain_player_stats.get_trueskill();
+    avepower = sum( [float(x[1]) for x in match_record] )/len(match_record)
+    avepower = float( "{0:.1f}".format(avepower) )
+    return render_template("scouter.php",rows = [match_record, len(match_record), avepower])
 
 if __name__ == '__main__':
     app.run(debug = True)

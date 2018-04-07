@@ -54,6 +54,13 @@ table {
 
           <h4>{{"Wins: "}} </h4>
           <table>
+            <tr>
+              <th>player 1</th>
+              <th>player 2</th>
+              <th>set count</th>
+              <th>average</th>
+              <th>standard deviation</th>
+            </tr>
             {% for match in full_tourney["wins"] %}
                   <tr>
                     {% for item in match %}

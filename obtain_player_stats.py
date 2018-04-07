@@ -3,6 +3,7 @@
     Provides functions for:
         * recording tournaments each player has attended
         * printing input-player's wins and losses at each tournament
+        *
 """
 
 import collections
@@ -124,7 +125,7 @@ def get_player_record(input_player='kerokeroppi'):
         opp_skill = player_ratings[opponent_name][0]
         opp_var = player_ratings[opponent_name][1]
         print("{s:{charused}<20} {}-{} ..... ({:>5.1f}, {:3.1f})".format(*match_results, opp_skill, opp_var, s=pname, charused="_"))
-        
+
         return [pname, *match_results, "{:>5.1f}".format(opp_skill), "{:3.1f}".format(opp_var)]
 
     for tourneyname, tourney in player_tourney_list:
@@ -153,7 +154,7 @@ def get_player_record(input_player='kerokeroppi'):
     return player_history
 
 
-def print_trueskill():
+def get_trueskill():
     player_ratings = []
     with open('./data/64SinglesTrueSkill.csv','r') as finput:
         for line in finput:
@@ -161,12 +162,61 @@ def print_trueskill():
             if 'player,mu,sigma,wins,losses,sets' in line:
                 continue
             playername = parts[0]
-            rating = float(parts[1])
-            sigma_rating = float(parts[2])
+            rating = "{0:.1f}".format(float(parts[1]))
+            sigma_rating = "{0:.1f}".format(float(parts[2]))
 
-            player_ratings.append( tuple(payername, rating, sigma_rating) )
+            player_ratings.append( [playername, rating, sigma_rating] )
 
-    sorted( 'descending', player_ratings, key=lambda x: x[1])
+    return sorted(player_ratings, key=lambda x: x[0])
+
+# Input a player, print all their wins and losses, by tournament.
+def get_headtohead(input_player1='kerokeroppi',input_player2='superboomfan'):
+    # First get tournament list:
+    playertournaments = get_player_tournaments()
+
+    # Exit if either player has appeared at a tournament
+    if input_player1 not in playertournaments or input_player2 not in playertournaments:
+        return None
+
+    # Make list of tournaments where both players attended
+    match_record = {}
+    for tourneyname in (set(playertournaments[input_player1]) & set(playertournaments[input_player2])):
+        match_record[tourneyname] = []
+
+    poi = set( [input_player1, input_player2] )
+
+    # Compile list of matches between players, iterating over full dataset
+    with open('./data/all-stats.csv', 'r') as finput:
+        for line in finput:
+            parts = line.strip().split(',')
+            player1 = parts[0]
+            player2 = parts[1]
+            player_list = [player1, player2]
+            winning_player = int(parts[2])
+            p1wins = int(parts[3])
+            p2wins = int(parts[4])
+            tourney_name = parts[5]
+
+            if player1 not in poi or player2 not in poi:  # skip if not relevant
+                continue
+            else:
+                tempset = {}
+                tempset[player1] = p1wins
+                tempset[player2] = p2wins
+
+                match = [ player_list[winning_player], tempset[input_player1], tempset[input_player2] ]
+                match_record[tourney_name].append(match)
+
+
+    # Sort tournament list with most recent results first
+    tourneyinfo_dict, _ = get_detailed_tournament_info()
+
+    # output = { "header":[], "tournaments": [(tourneyname, date, entrants, [] )] }
+    output = {}
+    output["header"] = [input_player1, input_player2]
+    output["tournaments"] = [ ( x, tourneyinfo_dict[x][1], tourneyinfo_dict[x][2], match_record[x]) for x in match_record.keys() ]
+    output["tournaments"].sort(key=lambda x:x[1], reverse=True)  # Sorted so most recent tournament is first.
+    return output
 
 
 if __name__ == "__main__":

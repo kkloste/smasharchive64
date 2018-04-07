@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<style>
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+</style>
+
+   <body>
+
+     Result of query : {{ msg }}
+     <h2><a href = "\">go back to home page</a></h2>
+
+     <h2>{{rows["header"][0]}}  VS  {{rows["header"][1]}}</h2>
+     <!-- output = { "header":[], "tournaments": [(tourneyname, date, entrants, [] )] }
+      -->
+
+     <h3>List all tournaments that both players attended:</h3>
+     {% for tourney in rows["tournaments"] %}
+        <h4> {{ tourney[0] }}, on {{ tourney[1]}}, had {{ tourney[2]}} entrants.</h4>
+           {% for item in tourney[3] %}
+            <br> {{ item[0] }} won: {{ item[1] }}-{{ item[2] }} </br>
+            {% endfor %}
+    {% endfor %}
+
+   </body>
+</html>

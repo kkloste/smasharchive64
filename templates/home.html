@@ -3,12 +3,10 @@
    <body>
 
      <h1>Smash Archive</h1>
-      <form action = "{{ url_for('list') }}" method = "POST">
-         <h3>Look up which player?</h3>
-         Name<br>
-         <input type = "text" name = "nm" /></br>
 
-      </form>
+        <h2><a href = "{{ url_for('singles') }}">Look up single player</a></h2>
+        <h2><a href = "{{ url_for('htoh') }}">Look up head to head</a></h2>
+        <h2><a href = "{{ url_for('scouter') }}">See full player database</a></h2>
 
    </body>
 </html>
