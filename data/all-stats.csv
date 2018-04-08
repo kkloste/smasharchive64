@@ -13,13 +13,13 @@ isai,stonefallow,0,2,0,Snosa II
 mariguas,sonicfuzz,0,2,0,Snosa II
 mariguas,crazyk115,0,2,0,Snosa II
 mariguas,tot,0,2,0,Snosa II
-mariguas,butcher of bakersfiefox,0,2,0,Snosa II
-sonicfuzz,butcher of bakersfiefox,1,0,2,Snosa II
+mariguas,butcher of bakersfield,0,2,0,Snosa II
+sonicfuzz,butcher of bakersfield,1,0,2,Snosa II
 crazyk115,sonicfuzz,1,0,2,Snosa II
 tot,sonicfuzz,0,2,0,Snosa II
 tot,crazyk115,0,2,0,Snosa II
-butcher of bakersfiefox,crazyk115,1,0,2,Snosa II
-butcher of bakersfiefox,tot,1,0,2,Snosa II
+butcher of bakersfield,crazyk115,1,0,2,Snosa II
+butcher of bakersfield,tot,1,0,2,Snosa II
 tacos,freddy cougar,0,2,0,Snosa II
 shihman,seantos,0,2,0,Snosa II
 kirbstomper,2%gay,0,2,0,Snosa II
@@ -94,10 +94,10 @@ rhubarb,jet fuel,0,2,0,Snosa II
 brody,d35,0,2,0,Snosa II
 p21/c,jet fuel,0,2,0,Snosa II
 schmerka berl,rhubarb,0,2,0,Snosa II
-starchifox,moustasher,0,2,0,Snosa II
-eggmode,starchifox,0,2,1,Snosa II
+starchild,moustasher,0,2,0,Snosa II
+eggmode,starchild,0,2,1,Snosa II
 kimimaru,moustasher,0,2,0,Snosa II
-kimimaru,starchifox,0,2,0,Snosa II
+kimimaru,starchild,0,2,0,Snosa II
 moustasher,eggmode,1,0,2,Snosa II
 kimimaru,eggmode,0,2,0,Snosa II
 near,woof,0,2,0,Snosa II
@@ -258,8 +258,8 @@ duncs,paco,0,2,0,Snosa II
 lloyd-black,godspeed,0,3,1,Snosa II
 shihman,jimbot,0,2,0,Snosa II
 daniels,smurf,0,2,0,Snosa II
-butcher of bakersfiefox,nattybroh,1,0,2,Snosa II
-starchifox,boomalready1,1,0,2,Snosa II
+butcher of bakersfield,nattybroh,1,0,2,Snosa II
+starchild,boomalready1,1,0,2,Snosa II
 rhubarb,duncs,1,0,3,Snosa II
 elitescoringguy,shihman,1,0,2,Snosa II
 daniels,nattybroh,1,1,2,Snosa II
@@ -276,17 +276,17 @@ moustasher,aces,1,1,2,Snosa II
 paco,boogie!,0,2,0,Snosa II
 sonicfuzz,seantos,0,2,1,Snosa II
 handles,mortech,0,2,0,Snosa II
-butcher of bakersfiefox,godspeed,0,2,0,Snosa II
+butcher of bakersfield,godspeed,0,2,0,Snosa II
 smurf,paco,0,2,0,Snosa II
 elitescoringguy,shyguyking,0,2,0,Snosa II
 scaryman,sonicfuzz,1,0,2,Snosa II
 rhubarb,handles,1,0,2,Snosa II
-aces,starchifox,1,0,2,Snosa II
-butcher of bakersfiefox,smurf,1,0,2,Snosa II
+aces,starchild,1,0,2,Snosa II
+butcher of bakersfield,smurf,1,0,2,Snosa II
 elitescoringguy,dusttin,1,0,2,Snosa II
-lloyd-black,starchifox,1,0,2,Snosa II
+lloyd-black,starchild,1,0,2,Snosa II
 kingcool,smurf,1,0,2,Snosa II
-starchifox,smurf,1,0,2,Snosa II
+starchild,smurf,1,0,2,Snosa II
 dusttin,handles,1,0,2,Snosa II
 nattybroh,smurf,0,2,0,Snosa II
 duncs,handles,1,0,2,Snosa II
@@ -440,7 +440,7 @@ mokkori,onski,0,2,1,Genesis 3
 ctg,mr.sir,0,2,1,Genesis 3
 drhino,klms,1,0,2,Genesis 3
 sedda,ragingcherry,0,2,0,Genesis 3
-autobaun,starchifox,0,2,0,Genesis 3
+autobaun,starchild,0,2,0,Genesis 3
 shears,bunmira,0,2,0,Genesis 3
 hungrybox,jpeghero,0,2,0,Genesis 3
 captain l,j,0,2,0,Genesis 3
@@ -453,12 +453,12 @@ dext3r,sedda,0,2,0,Genesis 3
 shears,captain l,0,2,0,Genesis 3
 j,heartsdealer,1,0,2,Genesis 3
 tetsu0,drhino,0,2,1,Genesis 3
-hungrybox,starchifox,1,0,2,Genesis 3
+hungrybox,starchild,1,0,2,Genesis 3
 autobaun,jpeghero,0,2,0,Genesis 3
 klms,heartsdealer,0,2,1,Genesis 3
-tetsu0,starchifox,1,1,2,Genesis 3
+tetsu0,starchild,1,1,2,Genesis 3
 autobaun,klms,0,2,0,Genesis 3
-sedda,starchifox,0,2,0,Genesis 3
+sedda,starchild,0,2,0,Genesis 3
 captain l,autobaun,0,2,0,Genesis 3
 drewgong,burnt out ninja,1,0,2,Genesis 3
 shanks,akiva,0,2,0,Genesis 3
@@ -1298,8 +1298,8 @@ myninja,grrg,1,0,2,Shine 2016
 the (.)(.),lalo,0,2,0,Shine 2016
 the (.)(.),daddy's milk,0,2,0,Shine 2016
 mello,tallyshell,1,1,2,Shine 2016
-a to tr3gthez,the (.)(.),0,2,1,Shine 2016
-a to tr3gthez,throwz?!,0,2,0,Shine 2016
+a to the z,the (.)(.),0,2,1,Shine 2016
+a to the z,throwz?!,0,2,0,Shine 2016
 scratch,lalo,0,2,0,Shine 2016
 scratch,sam,0,2,0,Shine 2016
 tacos,mello,0,2,0,Shine 2016
@@ -1413,7 +1413,7 @@ superboomfan,zuko,0,3,0,Shine 2016
 marbles,yunque,0,3,2,Shine 2016
 fireblaster,tyhiggz,0,3,2,Shine 2016
 shears,scoback,0,3,0,Shine 2016
-tacos,a to tr3gthez,0,3,0,Shine 2016
+tacos,a to the z,0,3,0,Shine 2016
 nintendude,madrush,0,3,2,Shine 2016
 brody,shihman,0,3,1,Shine 2016
 dajjal,mr.sir,0,3,2,Shine 2016
@@ -1436,7 +1436,7 @@ zuko,llcstoism,1,1,3,Shine 2016
 mr.sir,purtle,0,3,1,Shine 2016
 shihman,sunflower,0,3,0,Shine 2016
 madrush,the (.)(.),0,3,0,Shine 2016
-a to tr3gthez,gt,1,1,3,Shine 2016
+a to the z,gt,1,1,3,Shine 2016
 scoback,tyhiggz,1,2,3,Shine 2016
 yunque,llcstoism,0,3,0,Shine 2016
 mr.sir,shihman,1,1,3,Shine 2016
@@ -2139,20 +2139,20 @@ archduke,t-beau,1,0,2,Shine 2017
 kd3,russellsprouts,0,2,0,Shine 2017
 dyo,t-beau,1,0,2,Shine 2017
 kd3,t-beau,0,2,0,Shine 2017
+swankeaboo,natendo,1,0,2,Shine 2017
+swankeaboo,hotahota,1,0,2,Shine 2017
+natendo,the (.)(.),1,0,2,Shine 2017
 natendo,hotahota,0,2,0,Shine 2017
 the (.)(.),swankeaboo,0,2,0,Shine 2017
-ctg,hotahota,0,2,0,Shine 2017
 the (.)(.),baby legs,0,2,0,Shine 2017
-ctg,swankeaboo,0,2,0,Shine 2017
-natendo,the (.)(.),1,0,2,Shine 2017
-hotahota,the (.)(.),1,0,2,Shine 2017
-ctg,baby legs,0,2,0,Shine 2017
-swankeaboo,natendo,1,0,2,Shine 2017
-ctg,the (.)(.),0,2,0,Shine 2017
 baby legs,natendo,1,0,2,Shine 2017
-swankeaboo,hotahota,1,0,2,Shine 2017
-ctg,natendo,0,2,0,Shine 2017
 baby legs,hotahota,0,2,0,Shine 2017
+ctg,swankeaboo,0,2,0,Shine 2017
+ctg,natendo,0,2,0,Shine 2017
+ctg,the (.)(.),0,2,0,Shine 2017
+ctg,baby legs,0,2,0,Shine 2017
+ctg,hotahota,0,2,0,Shine 2017
+hotahota,the (.)(.),1,0,2,Shine 2017
 marbles,mike4real,0,2,0,Shine 2017
 spongy,mizbiz,0,2,0,Shine 2017
 goosewithsocks,spell,0,2,0,Shine 2017
@@ -2430,11 +2430,11 @@ the (.)(.),andykins,0,2,1,Shine 2017
 foda,zuko,1,0,2,Shine 2017
 the (.)(.),zuko,0,2,0,Shine 2017
 andykins,foda,0,2,0,Shine 2017
-spongy,darv,0,2,0,Shine 2017
 purtle,whitejesus,0,2,0,Shine 2017
-spongy,whitejesus,0,2,1,Shine 2017
 darv,purtle,1,0,2,Shine 2017
 spongy,purtle,0,2,0,Shine 2017
+spongy,darv,0,2,0,Shine 2017
+spongy,whitejesus,0,2,1,Shine 2017
 whitejesus,darv,1,1,2,Shine 2017
 alvin,kelvinheit,0,2,0,Shine 2017
 raychu,spongy,0,2,1,Shine 2017
@@ -2460,11 +2460,11 @@ brody,kaz,0,2,1,Shine 2017
 purtle,horbie,1,0,2,Shine 2017
 brody,horbie,0,2,0,Shine 2017
 kaz,purtle,0,2,0,Shine 2017
-yunque,gildo,0,2,1,Shine 2017
-fireblaster,yunque,1,0,2,Shine 2017
 fireblaster,stew,0,2,0,Shine 2017
+yunque,gildo,0,2,1,Shine 2017
 fireblaster,gildo,0,2,1,Shine 2017
 stew,yunque,1,1,2,Shine 2017
+fireblaster,yunque,1,0,2,Shine 2017
 gildo,stew,0,2,0,Shine 2017
 kd3,russellsprouts,0,2,0,Shine 2017
 shears,greeno,0,2,0,Shine 2017
@@ -2526,11 +2526,11 @@ hotahota,myk,0,2,0,APEX 2016
 jc_chill,costaricancool,1,0,2,APEX 2016
 dizzle,superkirby,0,2,0,APEX 2016
 driftintheabyss,7blanks,1,0,2,APEX 2016
-time machine,dimension,0,2,1,APEX 2016
+timemachine,dimension,0,2,1,APEX 2016
 fireblaster,costaricancool,0,2,0,APEX 2016
 dizzle,peasantloaf,0,2,0,APEX 2016
 nta,7blanks,0,2,1,APEX 2016
-time machine,elmustachio,0,2,0,APEX 2016
+timemachine,elmustachio,0,2,0,APEX 2016
 elmustachio,jc_chill,1,0,2,APEX 2016
 7blanks,superkirby,0,2,0,APEX 2016
 peasantloaf,driftintheabyss,0,2,0,APEX 2016
@@ -2566,12 +2566,12 @@ sedda,zeppelin,0,2,0,APEX 2016
 star king,phut,0,2,0,APEX 2016
 ctg,bp,0,2,0,APEX 2016
 fireblaster,dizzle,0,2,0,APEX 2016
-nta,time machine,1,0,2,APEX 2016
+nta,timemachine,1,0,2,APEX 2016
 cobr,scratch,0,2,0,APEX 2016
 maliki,mr.sir,1,1,2,APEX 2016
 stranded,sedda,0,2,0,APEX 2016
 star king,ctg,0,2,0,APEX 2016
-fireblaster,time machine,0,2,1,APEX 2016
+fireblaster,timemachine,0,2,1,APEX 2016
 cobr,mr.sir,0,2,0,APEX 2016
 elvis,truffleshuffle,0,2,0,APEX 2016
 pandemonium,whuck,1,0,2,APEX 2016
@@ -2594,7 +2594,7 @@ phut,bp,1,0,2,APEX 2016
 kelvinheit,nta,1,1,2,APEX 2016
 scratch,maliki,1,0,2,APEX 2016
 mr.sir,zeppelin,1,0,2,APEX 2016
-time machine,bp,0,2,1,APEX 2016
+timemachine,bp,0,2,1,APEX 2016
 ctg,nta,1,0,2,APEX 2016
 sedda,maliki,0,2,0,APEX 2016
 stranded,star king,0,3,1,APEX 2016
@@ -2602,9 +2602,9 @@ fireblaster,cobr,0,3,2,APEX 2016
 stranded,fireblaster,0,3,1,APEX 2016
 stranded,star king,0,3,0,APEX 2016
 nta,sedda,0,3,2,APEX 2016
-zeppelin,time machine,1,0,3,APEX 2016
+zeppelin,timemachine,1,0,3,APEX 2016
 star king,nta,0,3,0,APEX 2016
-cobr,time machine,0,3,0,APEX 2016
+cobr,timemachine,0,3,0,APEX 2016
 star king,cobr,0,3,0,APEX 2016
 fireblaster,star king,1,0,3,APEX 2016
 wizzrobe,puncayshun,0,2,0,SSC 2017
@@ -2727,16 +2727,16 @@ time machine,pikasneeze,0,2,0,SSC 2017
 mzadeh,limesoda,1,0,2,SSC 2017
 time machine,limesoda,0,2,0,SSC 2017
 mzadeh,fork?,1,0,2,SSC 2017
-kobra,doughnut,1,0,2,SSC 2017
-doughnut,lvl99wizard,0,2,0,SSC 2017
-doughnut,letsgo,1,0,2,SSC 2017
-lvl99wizard,kobra,1,0,2,SSC 2017
-letsgo,kobra,0,2,0,SSC 2017
 letsgo,lvl99wizard,0,2,0,SSC 2017
-hipstur,kobra,0,2,0,SSC 2017
-hipstur,doughnut,0,2,0,SSC 2017
+kobra,doughnut,1,0,2,SSC 2017
 hipstur,lvl99wizard,0,2,0,SSC 2017
+letsgo,kobra,0,2,0,SSC 2017
+hipstur,doughnut,0,2,0,SSC 2017
+lvl99wizard,kobra,1,0,2,SSC 2017
+hipstur,kobra,0,2,0,SSC 2017
+doughnut,letsgo,1,0,2,SSC 2017
 hipstur,letsgo,1,0,2,SSC 2017
+doughnut,lvl99wizard,0,2,0,SSC 2017
 dark gentleman,hollow,0,2,0,SSC 2017
 masterhandjob,hollow,0,2,0,SSC 2017
 dark gentleman,bflakes,0,2,0,SSC 2017
@@ -3013,12 +3013,12 @@ ringedge,chibama,0,2,0,SSC 2017
 firo,droc,0,2,0,SSC 2017
 bluebear,chibama,0,2,1,SSC 2017
 ranger,ringedge,1,0,2,SSC 2017
-kd3,cmac,0,2,0,SSC 2017
-kd3,blisstex,0,2,0,SSC 2017
-kd3,papa,0,2,0,SSC 2017
 blisstex,cmac,0,2,0,SSC 2017
-papa,cmac,1,0,2,SSC 2017
+kd3,cmac,0,2,0,SSC 2017
+kd3,papa,0,2,0,SSC 2017
 papa,blisstex,1,0,2,SSC 2017
+kd3,blisstex,0,2,0,SSC 2017
+papa,cmac,1,0,2,SSC 2017
 moonshoe,rokd,0,2,0,SSC 2017
 howdy,mattatari,0,2,0,SSC 2017
 hammerheart,rokd,0,2,0,SSC 2017
@@ -3265,16 +3265,16 @@ the yid,roman,1,0,2,SSC 2017
 billbacon420,razz,1,0,2,SSC 2017
 the yid,razz,1,0,2,SSC 2017
 billbacon420,gray,0,2,1,SSC 2017
+iheartqueso,ringedge,1,0,2,SSC 2017
+iheartqueso,annex,1,0,2,SSC 2017
+iheartqueso,v,1,1,2,SSC 2017
+iheartqueso,velocity jones,1,0,2,SSC 2017
+ringedge,annex,0,2,1,SSC 2017
+ringedge,velocity jones,1,0,2,SSC 2017
+annex,v,0,2,0,SSC 2017
 annex,velocity jones,0,2,1,SSC 2017
 v,ringedge,0,2,0,SSC 2017
-iheartqueso,velocity jones,1,0,2,SSC 2017
-annex,v,0,2,0,SSC 2017
-iheartqueso,ringedge,1,0,2,SSC 2017
 velocity jones,v,1,0,2,SSC 2017
-iheartqueso,v,1,1,2,SSC 2017
-ringedge,annex,0,2,1,SSC 2017
-iheartqueso,annex,1,0,2,SSC 2017
-ringedge,velocity jones,1,0,2,SSC 2017
 rizner,iceking,0,2,0,SSC 2017
 indefa,a$,0,2,0,SSC 2017
 bunz,iceking,0,2,0,SSC 2017
@@ -3453,9 +3453,9 @@ russellsprouts,hiv+,0,2,0,SSC 2017
 russellsprouts,pikasneeze,1,0,2,SSC 2017
 hiv+,keychain,1,0,2,SSC 2017
 russellsprouts,keychain,0,2,0,SSC 2017
+velocity jones,arcangel,0,2,0,SSC 2017
 arcangel,a$,1,0,2,SSC 2017
 velocity jones,a$,1,0,2,SSC 2017
-velocity jones,arcangel,0,2,0,SSC 2017
 aegeze,iceking,1,1,2,SSC 2017
 ringedge,halffulla,0,2,0,SSC 2017
 aegeze,halffulla,1,0,2,SSC 2017
@@ -3519,69 +3519,69 @@ tyler_stewart8,ender,1,2,3,SSC 2017
 cnasty613,ceec,0,3,2,SSC 2017
 ender,cnasty613,0,3,1,SSC 2017
 turquoise,ender,1,2,3,SSC 2017
-alvin,finio,0,2,0,SSC 2017
-fox,jaimehr,0,2,1,SSC 2017
-wangera,kd3,0,2,0,SSC 2017
-dext3r,robert,0,2,0,SSC 2017
-fukurou,supa,0,2,0,SSC 2017
-tacos,jose,0,2,0,SSC 2017
-mariguas,daniel,0,2,0,SSC 2017
-prince,firo,0,2,1,SSC 2017
-wario,manjaro,0,2,0,SSC 2017
-brody,shalaka,0,2,0,SSC 2017
-isai,hammerheart,0,2,0,SSC 2017
-kurabba,star king,0,2,0,SSC 2017
-superboomfan,combo blaze,0,2,0,SSC 2017
-kort,fireblaster,1,0,2,SSC 2017
-wizzrobe,clubbadubba,0,2,0,SSC 2017
-zero,lord narwhal,0,2,0,SSC 2017
-alvin,fox,1,0,2,SSC 2017
-wangera,dext3r,0,2,1,SSC 2017
-fukurou,tacos,0,2,0,SSC 2017
-mariguas,prince,1,1,2,SSC 2017
-wario,brody,0,2,0,SSC 2017
-isai,kurabba,1,0,2,SSC 2017
-superboomfan,fireblaster,0,2,0,SSC 2017
-wizzrobe,zero,1,1,2,SSC 2017
-fox,wangera,1,1,3,SSC 2017
-fukurou,prince,0,3,1,SSC 2017
-wario,kurabba,1,0,3,SSC 2017
-superboomfan,zero,0,3,0,SSC 2017
-wangera,fukurou,0,3,2,SSC 2017
-kurabba,superboomfan,0,3,2,SSC 2017
-wangera,kurabba,1,0,3,SSC 2017
-kurabba,fukurou,1,1,3,SSC 2017
-fukurou,kurabba,0,3,2,SSC 2017
-finio,jaimehr,1,0,2,SSC 2017
-kd3,robert,1,1,2,SSC 2017
 supa,jose,1,0,2,SSC 2017
-daniel,firo,1,0,2,SSC 2017
-manjaro,shalaka,1,0,2,SSC 2017
-hammerheart,star king,1,0,2,SSC 2017
-combo blaze,kort,1,1,2,SSC 2017
-clubbadubba,lord narwhal,1,0,2,SSC 2017
-wizzrobe,jaimehr,0,2,1,SSC 2017
-fireblaster,robert,1,1,2,SSC 2017
-isai,jose,0,2,1,SSC 2017
-brody,firo,0,2,1,SSC 2017
-mariguas,shalaka,0,2,0,SSC 2017
+tacos,jose,0,2,0,SSC 2017
 tacos,star king,0,2,0,SSC 2017
-dext3r,kort,0,2,0,SSC 2017
-alvin,lord narwhal,0,2,1,SSC 2017
+fireblaster,robert,1,1,2,SSC 2017
+combo blaze,kort,1,1,2,SSC 2017
+brody,firo,0,2,1,SSC 2017
+brody,shalaka,0,2,0,SSC 2017
 wizzrobe,robert,0,3,0,SSC 2017
-isai,brody,1,0,3,SSC 2017
-mariguas,tacos,0,3,2,SSC 2017
-dext3r,alvin,1,0,3,SSC 2017
-prince,wizzrobe,1,1,3,SSC 2017
-fox,brody,1,2,3,SSC 2017
-zero,mariguas,1,0,3,SSC 2017
-wario,alvin,1,0,3,SSC 2017
 wizzrobe,brody,0,3,0,SSC 2017
-mariguas,alvin,1,0,3,SSC 2017
+wizzrobe,jaimehr,0,2,1,SSC 2017
+wizzrobe,clubbadubba,0,2,0,SSC 2017
+wizzrobe,zero,1,1,2,SSC 2017
+isai,brody,1,0,3,SSC 2017
+isai,jose,0,2,1,SSC 2017
+isai,hammerheart,0,2,0,SSC 2017
+isai,kurabba,1,0,2,SSC 2017
+hammerheart,star king,1,0,2,SSC 2017
+finio,jaimehr,1,0,2,SSC 2017
+kort,fireblaster,1,0,2,SSC 2017
+superboomfan,fireblaster,0,2,0,SSC 2017
+superboomfan,combo blaze,0,2,0,SSC 2017
 superboomfan,wizzrobe,0,3,0,SSC 2017
-fukurou,alvin,0,3,2,SSC 2017
+superboomfan,zero,0,3,0,SSC 2017
 superboomfan,fukurou,1,2,3,SSC 2017
+fox,brody,1,2,3,SSC 2017
+fox,jaimehr,0,2,1,SSC 2017
+fox,wangera,1,1,3,SSC 2017
+kd3,robert,1,1,2,SSC 2017
+wangera,kd3,0,2,0,SSC 2017
+wangera,kurabba,1,0,3,SSC 2017
+wangera,fukurou,0,3,2,SSC 2017
 wangera,fukurou,1,2,3,SSC 2017
+wangera,dext3r,0,2,1,SSC 2017
+kurabba,superboomfan,0,3,2,SSC 2017
+kurabba,fukurou,1,1,3,SSC 2017
+kurabba,star king,0,2,0,SSC 2017
+prince,wizzrobe,1,1,3,SSC 2017
+prince,firo,0,2,1,SSC 2017
+clubbadubba,lord narwhal,1,0,2,SSC 2017
+wario,brody,0,2,0,SSC 2017
+wario,kurabba,1,0,3,SSC 2017
+wario,manjaro,0,2,0,SSC 2017
+wario,alvin,1,0,3,SSC 2017
+zero,lord narwhal,0,2,0,SSC 2017
+zero,mariguas,1,0,3,SSC 2017
+manjaro,shalaka,1,0,2,SSC 2017
+fukurou,supa,0,2,0,SSC 2017
+fukurou,tacos,0,2,0,SSC 2017
+fukurou,kurabba,0,3,2,SSC 2017
+fukurou,prince,0,3,1,SSC 2017
+fukurou,alvin,0,3,2,SSC 2017
+daniel,firo,1,0,2,SSC 2017
+alvin,finio,0,2,0,SSC 2017
+alvin,fox,1,0,2,SSC 2017
+alvin,lord narwhal,0,2,1,SSC 2017
+dext3r,robert,0,2,0,SSC 2017
+dext3r,kort,0,2,0,SSC 2017
+dext3r,alvin,1,0,3,SSC 2017
+mariguas,tacos,0,3,2,SSC 2017
+mariguas,prince,1,1,2,SSC 2017
+mariguas,shalaka,0,2,0,SSC 2017
+mariguas,daniel,0,2,0,SSC 2017
+mariguas,alvin,1,0,3,SSC 2017
 kaladin,beaver,0,2,0,Pound 2016
 nothing,v-bomber,0,2,0,Pound 2016
 zuko,icactusdog,0,2,0,Pound 2016
@@ -3676,15 +3676,15 @@ dr. lampy,pochilin,0,2,0,Pound 2016
 mr.sir,mustard tiger,0,2,0,Pound 2016
 fck vwls,dr. lampy,0,2,0,Pound 2016
 kobra,zenaga,1,0,2,Pound 2016
-time machine,kristoff,0,2,0,Pound 2016
+timemachine,kristoff,0,2,0,Pound 2016
 iceking,holosly,0,2,0,Pound 2016
 the protagonist,dragoniota,0,2,0,Pound 2016
 moonshoe,myk,0,2,0,Pound 2016
 tacos,zenaga,0,2,0,Pound 2016
-time machine,lldl,0,2,1,Pound 2016
+timemachine,lldl,0,2,1,Pound 2016
 tank,iceking,0,2,0,Pound 2016
 the protagonist,moonshoe,0,2,0,Pound 2016
-tacos,time machine,0,2,0,Pound 2016
+tacos,timemachine,0,2,0,Pound 2016
 tank,the protagonist,0,2,0,Pound 2016
 dragoniota,myk,0,2,0,Pound 2016
 moonshoe,kobra,0,2,0,Pound 2016
@@ -3693,7 +3693,7 @@ lldl,holosly,0,2,0,Pound 2016
 zenaga,dragoniota,1,0,2,Pound 2016
 moonshoe,kristoff,0,2,0,Pound 2016
 lldl,dragoniota,1,0,2,Pound 2016
-time machine,moonshoe,0,2,0,Pound 2016
+timemachine,moonshoe,0,2,0,Pound 2016
 the protagonist,dragoniota,0,2,0,Pound 2016
 legoman,bringdaruckus312,1,0,2,Pound 2016
 rizner,pigwick,0,2,0,Pound 2016
@@ -3761,7 +3761,7 @@ tank,daniel,1,1,2,Pound 2016
 fox,brody,1,1,3,Pound 2016
 fox,lord narwhal,0,3,0,Pound 2016
 fox,combo blaze,0,2,0,Pound 2016
-time machine,jimmy joe,1,1,2,Pound 2016
+timemachine,jimmy joe,1,1,2,Pound 2016
 tacos,revan,0,3,1,Pound 2016
 tacos,kerokeroppi,0,3,1,Pound 2016
 tacos,tank,0,2,0,Pound 2016
@@ -4225,21 +4225,21 @@ ensindic,soggy biscuit,0,2,0,Boss Battle 3
 shears,dogs_johnson,0,2,1,Boss Battle 3
 the yid,soggy biscuit,0,2,0,Boss Battle 3
 slappypoopy,ensindic,0,2,1,Boss Battle 3
-combo blaze,derstuk,0,2,0,Boss Battle 3
 combo blaze,godofgrunts,0,2,0,Boss Battle 3
-combo blaze,fil,0,2,0,Boss Battle 3
-combo blaze,skg,0,2,0,Boss Battle 3
-combo blaze,shaddi,0,2,0,Boss Battle 3
-derstuk,skg,1,0,2,Boss Battle 3
-derstuk,shaddi,1,0,2,Boss Battle 3
-godofgrunts,derstuk,1,0,2,Boss Battle 3
-godofgrunts,skg,1,0,2,Boss Battle 3
-fil,derstuk,0,2,0,Boss Battle 3
-fil,godofgrunts,0,2,0,Boss Battle 3
-skg,fil,1,0,2,Boss Battle 3
 skg,shaddi,0,2,1,Boss Battle 3
-shaddi,godofgrunts,0,2,0,Boss Battle 3
+fil,derstuk,0,2,0,Boss Battle 3
+combo blaze,shaddi,0,2,0,Boss Battle 3
+godofgrunts,derstuk,1,0,2,Boss Battle 3
+skg,fil,1,0,2,Boss Battle 3
+combo blaze,derstuk,0,2,0,Boss Battle 3
 shaddi,fil,1,1,2,Boss Battle 3
+godofgrunts,skg,1,0,2,Boss Battle 3
+combo blaze,fil,0,2,0,Boss Battle 3
+derstuk,skg,1,0,2,Boss Battle 3
+shaddi,godofgrunts,0,2,0,Boss Battle 3
+combo blaze,skg,0,2,0,Boss Battle 3
+fil,godofgrunts,0,2,0,Boss Battle 3
+derstuk,shaddi,1,0,2,Boss Battle 3
 superboomfan,pugs,0,2,0,Boss Battle 3
 hammerheart,nacl,0,2,0,Boss Battle 3
 hero pie,fumbles,0,2,0,Boss Battle 3
@@ -4814,20 +4814,20 @@ espparadox,apparition the ambassador,1,1,2,ESB
 slatts,sunvulcan,1,1,2,ESB
 billbacon420,apparition the ambassador,1,1,2,ESB
 jonnjonn,espparadox,1,0,2,ESB
-traiman,mjim,0,2,0,ESB
-traiman,primefry,0,2,0,ESB
-bloogo,traiman,0,2,0,ESB
-bloogo,mjim,0,2,0,ESB
-bloogo,primefry,0,2,0,ESB
 bloogo,skyfire,1,1,2,ESB
-bloogo,rush,0,2,0,ESB
-mjim,skyfire,1,1,2,ESB
+traiman,primefry,0,2,0,ESB
 mjim,rush,0,2,0,ESB
-primefry,mjim,1,0,2,ESB
-primefry,skyfire,1,0,2,ESB
-skyfire,traiman,0,2,1,ESB
+bloogo,primefry,0,2,0,ESB
 skyfire,rush,0,2,0,ESB
+traiman,mjim,0,2,0,ESB
+bloogo,rush,0,2,0,ESB
+primefry,mjim,1,0,2,ESB
+skyfire,traiman,0,2,1,ESB
+bloogo,mjim,0,2,0,ESB
 rush,traiman,1,1,2,ESB
+primefry,skyfire,1,0,2,ESB
+bloogo,traiman,0,2,0,ESB
+mjim,skyfire,1,1,2,ESB
 rush,primefry,0,2,0,ESB
 spongy,papasquat,0,2,0,ESB
 gt,bloogo,1,1,2,ESB
@@ -4839,16 +4839,16 @@ preston,gt,0,2,0,ESB
 bloogo,spongy,0,2,0,ESB
 preston,spongy,1,1,2,ESB
 bloogo,papasquat,0,2,0,ESB
-stew,hoofy,1,0,2,ESB
-the yid,apparition the ambassador,0,2,0,ESB
-kaz,hoofy,0,2,0,ESB
-stew,the yid,0,2,1,ESB
-kaz,apparition the ambassador,0,2,0,ESB
 hoofy,the yid,1,0,2,ESB
-kaz,the yid,0,2,0,ESB
-apparition the ambassador,stew,1,0,2,ESB
+stew,hoofy,1,0,2,ESB
+stew,the yid,0,2,1,ESB
+kaz,hoofy,0,2,0,ESB
 kaz,stew,0,2,0,ESB
+kaz,the yid,0,2,0,ESB
+kaz,apparition the ambassador,0,2,0,ESB
+the yid,apparition the ambassador,0,2,0,ESB
 apparition the ambassador,hoofy,1,1,2,ESB
+apparition the ambassador,stew,1,0,2,ESB
 sebula,kelvinheit,0,2,0,ESB
 sav,billbacon420,0,2,1,ESB
 razz,kelvinheit,0,2,1,ESB
@@ -4869,12 +4869,12 @@ korobeniki,ajbcdefg,0,2,0,ESB
 skyfire,reptar,1,1,2,ESB
 korobeniki,reptar,0,2,1,ESB
 skyfire,measthebeast,0,2,1,ESB
-shears,bloogo,0,2,1,ESB
-jimmy joe,kaz,0,2,1,ESB
-shears,kaz,0,2,0,ESB
 bloogo,jimmy joe,1,0,2,ESB
+shears,bloogo,0,2,1,ESB
+shears,kaz,0,2,0,ESB
 shears,jimmy joe,1,0,2,ESB
 kaz,bloogo,0,2,0,ESB
+jimmy joe,kaz,0,2,1,ESB
 darkhorse,the yid,0,2,1,ESB
 dark gentleman,preston,0,2,0,ESB
 darkhorse,preston,0,2,1,ESB
@@ -5123,33 +5123,33 @@ stranded,zero,1,1,3,Low Tier City 5
 revan,ctg,0,3,2,Low Tier City 5
 zero,revan,0,3,0,Low Tier City 5
 wizzrobe,zero,0,3,0,Low Tier City 5
-thisisgettingofox,gamer4life,1,1,2,SSC 2016
+thisisgettingold,gamer4life,1,1,2,SSC 2016
 trevman,thedarkdreamer,0,2,0,SSC 2016
 superboomfan,gaijilla,0,2,0,SSC 2016
-iceking,stevie g$????????,1,0,2,SSC 2016
+iceking,stevie g,1,0,2,SSC 2016
 lorenzo,gamer4life,0,2,0,SSC 2016
 bowl,kobra,0,2,0,SSC 2016
 combo blaze,trevman,0,2,0,SSC 2016
 blisstex,miniohh!,1,1,2,SSC 2016
 fck vwls,stark,0,2,0,SSC 2016
 grahamaglam,mr_sharpie93,0,2,0,SSC 2016
-superboomfan,stevie g$????????,0,2,0,SSC 2016
+superboomfan,stevie g,0,2,0,SSC 2016
 lorenzo,bowl,1,0,2,SSC 2016
 combo blaze,miniohh!,0,2,0,SSC 2016
 fck vwls,grahamaglam,1,0,2,SSC 2016
 superboomfan,bowl,0,2,0,SSC 2016
 combo blaze,grahamaglam,0,2,0,SSC 2016
-blisstex,thisisgettingofox,0,2,0,SSC 2016
+blisstex,thisisgettingold,0,2,0,SSC 2016
 kobra,thedarkdreamer,0,2,0,SSC 2016
 mr_sharpie93,stark,1,0,2,SSC 2016
 blisstex,trevman,0,2,0,SSC 2016
 kobra,gamer4life,1,0,2,SSC 2016
 iceking,gaijilla,1,0,2,SSC 2016
 lorenzo,stark,0,2,0,SSC 2016
-stevie g$????????,blisstex,0,2,0,SSC 2016
+stevie g,blisstex,0,2,0,SSC 2016
 fck vwls,gamer4life,0,2,0,SSC 2016
 miniohh!,gaijilla,0,2,0,SSC 2016
-lorenzo,stevie g$????????,0,2,0,SSC 2016
+lorenzo,stevie g,0,2,0,SSC 2016
 fck vwls,miniohh!,0,2,1,SSC 2016
 grahamaglam,lorenzo,1,0,2,SSC 2016
 bowl,fck vwls,0,2,1,SSC 2016
@@ -5276,17 +5276,17 @@ dogg,pizza,0,2,0,SSC 2016
 amaya,maaron,1,0,2,SSC 2016
 chiefreaper,warmachine1919,0,2,0,SSC 2016
 kurabba,changed man,0,2,0,SSC 2016
-time machine,maaron,0,2,0,SSC 2016
+timemachine,maaron,0,2,0,SSC 2016
 mr.sir,subtle,0,2,1,SSC 2016
 brody,spt,0,2,0,SSC 2016
 nesskhalifa,savior,0,2,0,SSC 2016
 a$,chiefreaper,0,2,0,SSC 2016
 rizner,eg,1,0,2,SSC 2016
 kurabba,yrn,0,2,0,SSC 2016
-time machine,mr.sir,0,2,0,SSC 2016
+timemachine,mr.sir,0,2,0,SSC 2016
 brody,nesskhalifa,0,2,0,SSC 2016
 a$,eg,0,2,0,SSC 2016
-kurabba,time machine,0,2,0,SSC 2016
+kurabba,timemachine,0,2,0,SSC 2016
 brody,a$,0,2,1,SSC 2016
 savior,amaya,0,2,0,SSC 2016
 tafokints,warmachine1919,0,2,0,SSC 2016
@@ -5300,7 +5300,7 @@ nesskhalifa,tafokints,0,2,0,SSC 2016
 mr.sir,yrn,0,2,0,SSC 2016
 eg,nesskhalifa,0,2,0,SSC 2016
 a$,mr.sir,0,2,0,SSC 2016
-time machine,eg,0,2,0,SSC 2016
+timemachine,eg,0,2,0,SSC 2016
 darkhorse,hiv+,0,2,0,SSC 2016
 darkhorse,annex,0,2,0,SSC 2016
 darkhorse,jason,1,0,2,SSC 2016
@@ -5480,14 +5480,14 @@ rossi,blue bear,0,2,1,SSC 2016
 q!,mariokartmoney,0,2,0,SSC 2016
 nta,poptartplug,0,2,0,SSC 2016
 tr3gthez,smashg0d,0,2,0,SSC 2016
-fireblaster,a to tr3gthez,0,2,0,SSC 2016
+fireblaster,a to the z,0,2,0,SSC 2016
 tr3gthez,q!,0,2,0,SSC 2016
 fireblaster,nta,1,1,2,SSC 2016
 sebula4,sambook,0,2,0,SSC 2016
 sebula4,frogman [charette],0,2,1,SSC 2016
 smashg0d,dizzle,1,0,2,SSC 2016
 the dark gentleman,blue bear,0,2,0,SSC 2016
-a to tr3gthez,sebula4,1,0,2,SSC 2016
+a to the z,sebula4,1,0,2,SSC 2016
 rossi,dizzle,0,2,0,SSC 2016
 the dark gentleman,sebula4,0,2,0,SSC 2016
 fireblaster,rossi,0,2,0,SSC 2016
@@ -5578,7 +5578,7 @@ lorenzo,sax,1,0,2,SSC 2016
 nothing,masterhandjob,0,2,0,SSC 2016
 sheermadness,dogg,0,2,0,SSC 2016
 marbles,the dark gentleman,0,2,1,SSC 2016
-nintendude,time machine,0,2,1,SSC 2016
+nintendude,timemachine,0,2,1,SSC 2016
 preston,the protagonist,1,0,2,SSC 2016
 snorlax,saltsizzle,0,2,1,SSC 2016
 finio,satan [turner],1,0,2,SSC 2016
@@ -6159,13 +6159,13 @@ lowww,yobo,0,2,0,SuperBoomed
 bagel,thenuge,1,0,2,SuperBoomed
 captain fabulous,jay_mute$,1,1,2,SuperBoomed
 kristoff,russellsprouts,0,2,0,SuperBoomed
-time machine,jay_mute$,1,1,2,SuperBoomed
+timemachine,jay_mute$,1,1,2,SuperBoomed
 captain fabulous,kristoff,0,2,1,SuperBoomed
-time machine,russellsprouts,0,2,0,SuperBoomed
+timemachine,russellsprouts,0,2,0,SuperBoomed
 jay_mute$,kristoff,0,2,0,SuperBoomed
-time machine,kristoff,0,2,0,SuperBoomed
+timemachine,kristoff,0,2,0,SuperBoomed
 russellsprouts,captain fabulous,1,0,2,SuperBoomed
-time machine,captain fabulous,1,1,2,SuperBoomed
+timemachine,captain fabulous,1,1,2,SuperBoomed
 russellsprouts,jay_mute$,1,0,2,SuperBoomed
 capos,jollie,0,2,0,SuperBoomed
 capos,masterhandjob,1,0,2,SuperBoomed
@@ -7629,21 +7629,21 @@ minymidge,bard,1,0,2,Hitstun 5!
 superboomfan,bard,0,2,0,Hitstun 5!
 minymidge,weslec,0,2,0,Hitstun 5!
 roman,emptyw,0,2,0,Hitstun 5!
-time machine,gooby,0,2,1,Hitstun 5!
+timemachine,gooby,0,2,1,Hitstun 5!
 automatic,icactusdog,0,2,0,Hitstun 5!
 zero,emptyw,0,2,0,Hitstun 5!
 roman,icactusdog,0,2,0,Hitstun 5!
-time machine,automatic,0,2,1,Hitstun 5!
+timemachine,automatic,0,2,1,Hitstun 5!
 zero,gooby,0,2,0,Hitstun 5!
 emptyw,icactusdog,0,2,0,Hitstun 5!
-roman,time machine,0,2,1,Hitstun 5!
+roman,timemachine,0,2,1,Hitstun 5!
 zero,icactusdog,0,2,0,Hitstun 5!
 gooby,automatic,1,0,2,Hitstun 5!
-emptyw,time machine,1,0,2,Hitstun 5!
+emptyw,timemachine,1,0,2,Hitstun 5!
 zero,automatic,0,2,0,Hitstun 5!
-icactusdog,time machine,1,0,2,Hitstun 5!
+icactusdog,timemachine,1,0,2,Hitstun 5!
 gooby,roman,1,0,2,Hitstun 5!
-zero,time machine,0,2,0,Hitstun 5!
+zero,timemachine,0,2,0,Hitstun 5!
 automatic,roman,1,1,2,Hitstun 5!
 gooby,emptyw,1,0,2,Hitstun 5!
 zero,roman,0,2,0,Hitstun 5!
@@ -7664,16 +7664,16 @@ brody,jay-r,0,2,1,Hitstun 5!
 moonshoe,skg,1,0,2,Hitstun 5!
 brody,skg,0,2,0,Hitstun 5!
 moonshoe,k rool,0,2,1,Hitstun 5!
-dishier wand,gt,0,2,1,Hitstun 5!
 dishier wand,peacemaker,0,2,0,Hitstun 5!
-gt,eg,1,0,2,Hitstun 5!
+dishier wand,gt,0,2,1,Hitstun 5!
+joshi,peacemaker,0,2,0,Hitstun 5!
 eg,dishier wand,0,2,0,Hitstun 5!
 peacemaker,gt,1,0,2,Hitstun 5!
+joshi,gt,0,2,0,Hitstun 5!
 peacemaker,eg,1,0,2,Hitstun 5!
 joshi,dishier wand,0,2,0,Hitstun 5!
-joshi,gt,0,2,0,Hitstun 5!
+gt,eg,1,0,2,Hitstun 5!
 joshi,eg,0,2,0,Hitstun 5!
-joshi,peacemaker,0,2,0,Hitstun 5!
 weedwack,cgmontage,0,2,0,Hitstun 5!
 z-rex,chronicmexican,0,2,1,Hitstun 5!
 wookiee,chronicmexican,0,2,0,Hitstun 5!
@@ -7763,19 +7763,19 @@ emptyw,griffith,0,2,0,Hitstun 5!
 dishier wand,bowl,0,2,0,Hitstun 5!
 ttt,griffith,0,2,0,Hitstun 5!
 minymidge,emptyw,1,1,2,Hitstun 5!
-time machine,neat,0,2,0,Hitstun 5!
+timemachine,neat,0,2,0,Hitstun 5!
 bo,gooby,0,2,0,Hitstun 5!
 log,moonshoe,0,2,1,Hitstun 5!
-time machine,gooby,0,2,1,Hitstun 5!
+timemachine,gooby,0,2,1,Hitstun 5!
 neat,moonshoe,1,0,2,Hitstun 5!
 bo,log,0,2,0,Hitstun 5!
-time machine,moonshoe,0,2,0,Hitstun 5!
+timemachine,moonshoe,0,2,0,Hitstun 5!
 gooby,log,0,2,1,Hitstun 5!
 neat,bo,1,0,2,Hitstun 5!
-time machine,log,0,2,0,Hitstun 5!
+timemachine,log,0,2,0,Hitstun 5!
 moonshoe,bo,1,0,2,Hitstun 5!
 gooby,neat,0,2,0,Hitstun 5!
-time machine,bo,0,2,0,Hitstun 5!
+timemachine,bo,0,2,0,Hitstun 5!
 log,neat,0,2,0,Hitstun 5!
 moonshoe,gooby,1,1,2,Hitstun 5!
 elel,chronicmexican,0,2,1,Hitstun 5!
@@ -7854,20 +7854,20 @@ brody,ctg,0,2,0,Hitstun 5!
 madrush,gunnermaniac,0,2,1,Hitstun 5!
 bard,jay-r,0,2,1,Hitstun 5!
 joshi,bowl,0,2,0,Hitstun 5!
-cobr,time machine,0,2,1,Hitstun 5!
+cobr,timemachine,0,2,1,Hitstun 5!
 loto,skg,0,2,1,Hitstun 5!
-joshi,time machine,0,2,1,Hitstun 5!
+joshi,timemachine,0,2,1,Hitstun 5!
 bowl,skg,1,0,2,Hitstun 5!
 cobr,loto,0,2,1,Hitstun 5!
 joshi,skg,0,2,0,Hitstun 5!
-time machine,loto,0,2,0,Hitstun 5!
+timemachine,loto,0,2,0,Hitstun 5!
 bowl,cobr,1,0,2,Hitstun 5!
 joshi,loto,0,2,0,Hitstun 5!
 skg,cobr,1,0,2,Hitstun 5!
-time machine,bowl,0,2,0,Hitstun 5!
+timemachine,bowl,0,2,0,Hitstun 5!
 joshi,cobr,1,1,2,Hitstun 5!
 loto,bowl,0,2,1,Hitstun 5!
-skg,time machine,0,2,0,Hitstun 5!
+skg,timemachine,0,2,0,Hitstun 5!
 superboomfan,eg,0,3,0,Hitstun 5!
 cobr,ctg,0,3,0,Hitstun 5!
 zero,joshi,0,3,0,Hitstun 5!
@@ -8319,6 +8319,44 @@ wizzrobe,dext3r,1,1,3,Genesis 4
 kerokeroppi,superboomfan,1,0,3,Genesis 4
 dext3r,superboomfan,1,0,3,Genesis 4
 kysk,superboomfan,1,0,3,Genesis 4
+catlover321,slappymcnutz,1,1,2,FPS 2
+hoofy,dennysgrandslambreakfast,0,2,0,FPS 2
+tubby!,howdy,0,2,0,FPS 2
+yrn,leaf fc,0,2,1,FPS 2
+superboomfan,slappymcnutz,0,2,0,FPS 2
+deathcpo,fil,0,2,0,FPS 2
+shears,hoofy,0,2,0,FPS 2
+marbles,fenrir,0,2,1,FPS 2
+wizzrobe,tubby!,0,2,0,FPS 2
+loto,griffith,0,2,0,FPS 2
+brody,yrn,0,2,0,FPS 2
+ctg,dam_tewton,0,2,1,FPS 2
+superboomfan,deathcpo,0,3,0,FPS 2
+shears,marbles,1,0,3,FPS 2
+wizzrobe,loto,0,3,1,FPS 2
+brody,ctg,0,3,0,FPS 2
+superboomfan,marbles,0,3,0,FPS 2
+wizzrobe,brody,0,3,0,FPS 2
+superboomfan,wizzrobe,0,3,0,FPS 2
+superboomfan,brody,0,3,1,FPS 2
+dam_tewton,catlover321,0,2,0,FPS 2
+griffith,dennysgrandslambreakfast,0,2,0,FPS 2
+fenrir,howdy,0,2,0,FPS 2
+fil,leaf fc,0,2,0,FPS 2
+dam_tewton,yrn,0,2,0,FPS 2
+griffith,tubby!,0,2,0,FPS 2
+fenrir,hoofy,0,2,0,FPS 2
+fil,slappymcnutz,0,2,0,FPS 2
+shears,dam_tewton,0,3,0,FPS 2
+deathcpo,griffith,0,3,2,FPS 2
+ctg,fenrir,0,3,1,FPS 2
+loto,fil,0,3,0,FPS 2
+shears,deathcpo,0,3,2,FPS 2
+ctg,loto,0,3,2,FPS 2
+brody,shears,0,3,2,FPS 2
+marbles,ctg,1,1,3,FPS 2
+brody,ctg,0,3,1,FPS 2
+wizzrobe,brody,1,2,3,FPS 2
 superboomfan,beans,0,2,0,Boss Battle 2
 annex,nardwell,0,2,0,Boss Battle 2
 llcstoism,cormander,0,2,0,Boss Battle 2
@@ -8382,18 +8420,18 @@ nacl,saltsizzle,0,2,0,Boss Battle 2
 village mascot,yaron,0,2,1,Boss Battle 2
 marbles,vondo,0,2,0,Boss Battle 2
 lorenzo,yolft,0,2,0,Boss Battle 2
-a to tr3gthez,bigbeaver,1,1,2,Boss Battle 2
+a to the z,bigbeaver,1,1,2,Boss Battle 2
 marbles,yolft,0,2,0,Boss Battle 2
 vondo,bigbeaver,1,0,2,Boss Battle 2
-lorenzo,a to tr3gthez,0,2,0,Boss Battle 2
+lorenzo,a to the z,0,2,0,Boss Battle 2
 marbles,bigbeaver,0,2,0,Boss Battle 2
-yolft,a to tr3gthez,1,0,2,Boss Battle 2
+yolft,a to the z,1,0,2,Boss Battle 2
 vondo,lorenzo,1,0,2,Boss Battle 2
-marbles,a to tr3gthez,0,2,0,Boss Battle 2
+marbles,a to the z,0,2,0,Boss Battle 2
 bigbeaver,lorenzo,1,0,2,Boss Battle 2
 yolft,vondo,0,2,0,Boss Battle 2
 marbles,lorenzo,0,2,1,Boss Battle 2
-a to tr3gthez,vondo,0,2,0,Boss Battle 2
+a to the z,vondo,0,2,0,Boss Battle 2
 bigbeaver,yolft,0,2,0,Boss Battle 2
 d35,pintoa,0,2,0,Boss Battle 2
 gt,lou sanus,0,2,0,Boss Battle 2
@@ -8570,7 +8608,7 @@ husker,janitor,1,0,2,Boss Battle 2
 mmneggs,grahamaglam,0,2,0,Boss Battle 2
 yaron,meerkat,1,0,2,Boss Battle 2
 ocelot,rebel scum,1,0,2,Boss Battle 2
-a to tr3gthez,rocket,0,2,1,Boss Battle 2
+a to the z,rocket,0,2,1,Boss Battle 2
 ʙᴏᴅᴀᴄɪᴏᴜs,eg,1,0,2,Boss Battle 2
 komotonoto,pintoa,0,2,0,Boss Battle 2
 b33f,monte,1,0,2,Boss Battle 2
@@ -8584,7 +8622,7 @@ jsmirk,yolft,0,2,1,Boss Battle 2
 josephzander,janitor,1,1,2,Boss Battle 2
 mmneggs,meerkat,0,2,0,Boss Battle 2
 nardwell,zad,1,0,2,Boss Battle 2
-rebel scum,a to tr3gthez,1,1,2,Boss Battle 2
+rebel scum,a to the z,1,1,2,Boss Battle 2
 cormander,eg,1,0,2,Boss Battle 2
 komotonoto,monte,1,1,2,Boss Battle 2
 deathcpo,box765,1,0,2,Boss Battle 2
@@ -8592,16 +8630,16 @@ beans,gt,0,2,0,Boss Battle 2
 annex,ondas,0,2,0,Boss Battle 2
 lou sanus,jsmirk,1,1,2,Boss Battle 2
 janitor,mmneggs,0,2,0,Boss Battle 2
-zad,a to tr3gthez,1,0,2,Boss Battle 2
+zad,a to the z,1,0,2,Boss Battle 2
 eg,monte,1,0,2,Boss Battle 2
 box765,beans,0,2,1,Boss Battle 2
 annex,jsmirk,0,2,0,Boss Battle 2
-janitor,a to tr3gthez,0,2,1,Boss Battle 2
+janitor,a to the z,0,2,1,Boss Battle 2
 monte,box765,0,3,1,Boss Battle 2
 annex,janitor,1,2,3,Boss Battle 2
 monte,janitor,1,0,3,Boss Battle 2
-janitor,a to tr3gthez,1,1,3,Boss Battle 2
-a to tr3gthez,janitor,1,1,3,Boss Battle 2
+janitor,a to the z,1,1,3,Boss Battle 2
+a to the z,janitor,1,1,3,Boss Battle 2
 the drew,maniac379,1,0,2,Boss Battle 2
 apparition the ambassador,neph_girl,0,2,0,Boss Battle 2
 whitejesus,bigbeaver,0,2,0,Boss Battle 2
@@ -8635,12 +8673,12 @@ komotonoto,professor_wizard,1,1,2,Boss Battle 2
 village mascot,piratetrips,1,0,2,Boss Battle 2
 b33f,ocelot,0,2,0,Boss Battle 2
 jsmirk,josephzander,1,0,2,Boss Battle 2
-a to tr3gthez,professor_wizard,0,2,1,Boss Battle 2
+a to the z,professor_wizard,0,2,1,Boss Battle 2
 eg,piratetrips,0,2,0,Boss Battle 2
 beans,b33f,1,0,2,Boss Battle 2
 eg,b33f,0,3,1,Boss Battle 2
 annex,eg,1,0,3,Boss Battle 2
-a to tr3gthez,eg,0,3,0,Boss Battle 2
+a to the z,eg,0,3,0,Boss Battle 2
 bloogo,nardwell,0,2,0,Keystoned II
 ace,whitejesus,1,1,2,Keystoned II
 miniohh!,nardwell,0,2,0,Keystoned II
@@ -8721,20 +8759,20 @@ dark gentleman,velocity jones,0,2,0,Keystoned II
 ocelot,jamjar,0,2,1,Keystoned II
 dark gentleman,jamjar,1,0,2,Keystoned II
 ocelot,icactusdog,1,0,2,Keystoned II
-q!,bean,0,2,0,Keystoned II
-q!,bt,1,1,2,Keystoned II
 q!,hwatts,0,2,0,Keystoned II
-q!,papasquat,0,2,0,Keystoned II
-q!,v,0,2,1,Keystoned II
-bean,papasquat,0,2,0,Keystoned II
-bean,v,1,0,2,Keystoned II
 bt,bean,0,2,0,Keystoned II
-bt,hwatts,0,2,0,Keystoned II
+q!,papasquat,0,2,0,Keystoned II
 hwatts,bean,1,0,2,Keystoned II
-hwatts,v,1,0,2,Keystoned II
-papasquat,bt,1,1,2,Keystoned II
-papasquat,hwatts,0,2,0,Keystoned II
 v,bt,1,1,2,Keystoned II
+q!,bean,0,2,0,Keystoned II
+papasquat,bt,1,1,2,Keystoned II
+hwatts,v,1,0,2,Keystoned II
+q!,bt,1,1,2,Keystoned II
+bean,v,1,0,2,Keystoned II
+papasquat,hwatts,0,2,0,Keystoned II
+q!,v,0,2,1,Keystoned II
+bt,hwatts,0,2,0,Keystoned II
+bean,papasquat,0,2,0,Keystoned II
 korobeniki,tallboi,0,2,0,Keystoned II
 smurf,auggie,0,2,0,Keystoned II
 traiman,smurf,0,2,0,Keystoned II
