@@ -9,6 +9,15 @@
 import collections
 import os
 import argparse
+from scipy.special import erf as erf
+from math import sqrt as sqrt
+from math import floor as floor
+
+
+def get_rating_text(pstat):
+    mu = "{:.1f}".format(pstat[0])
+    sig = "{:.1f}".format(pstat[1])
+    return [mu, sig]
 
 def get_trueskill_list():
     player_ratings = {}
@@ -169,6 +178,21 @@ def get_trueskill():
 
     return sorted(player_ratings, key=lambda x: x[0])
 
+def get_trueskill_dict():
+    player_ratings = {}
+    with open('./data/64SinglesTrueSkill.csv','r') as finput:
+        for line in finput:
+            parts = line.strip().split(',')
+            if 'player,mu,sigma,wins,losses,sets' in line:
+                continue
+            playername = parts[0]
+            rating = float(parts[1])
+            sigma_rating = float(parts[2])
+
+            player_ratings[playername] = [rating, sigma_rating]
+
+    return player_ratings
+
 # Input a player, print all their wins and losses, by tournament.
 def get_headtohead(input_player1='kerokeroppi',input_player2='superboomfan'):
     # First get tournament list:
@@ -200,11 +224,10 @@ def get_headtohead(input_player1='kerokeroppi',input_player2='superboomfan'):
             if player1 not in poi or player2 not in poi:  # skip if not relevant
                 continue
             else:
-                tempset = {}
-                tempset[player1] = p1wins
-                tempset[player2] = p2wins
+                winnergames = max(p1wins, p2wins)
+                losergames = min(p1wins, p2wins)
 
-                match = [ player_list[winning_player], tempset[input_player1], tempset[input_player2] ]
+                match = [ player_list[winning_player], winnergames, losergames]
                 match_record[tourney_name].append(match)
 
 
@@ -212,10 +235,24 @@ def get_headtohead(input_player1='kerokeroppi',input_player2='superboomfan'):
     tourneyinfo_dict, _ = get_detailed_tournament_info()
 
     # output = { "header":[], "tournaments": [(tourneyname, date, entrants, [] )] }
+    # use erf here
+    ts_dict = get_trueskill_dict()
+    p1NRV = ts_dict[input_player1]
+    p2NRV = ts_dict[input_player2]
+    predicted_winner = input_player1
+    if p1NRV < p2NRV:
+        predicted_winner = input_player2
+    newmu = abs(p1NRV[0] - p2NRV[0])
+    newsig = sqrt(p1NRV[1] + p2NRV[1])
+    winpercent = 5*floor(20 - 0.5*(1.0 + erf(-newmu/sqrt(2.0*newsig)))*20)
+    print(winpercent)
+
     output = {}
     output["header"] = [input_player1, input_player2]
+    output["playerinfo"] = [ [input_player1, get_rating_text(p1NRV)], [input_player2, get_rating_text(p2NRV)] ]
     output["tournaments"] = [ ( x, tourneyinfo_dict[x][1], tourneyinfo_dict[x][2], match_record[x]) for x in match_record.keys() ]
     output["tournaments"].sort(key=lambda x:x[1], reverse=True)  # Sorted so most recent tournament is first.
+    output["prediction"] = ["{:2.0f}".format(winpercent), predicted_winner]
     return output
 
 

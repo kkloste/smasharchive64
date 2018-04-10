@@ -13,8 +13,8 @@ table {
 
    <body>
 
+     <h1><a href = "\">Smash Archive</a></h1>
      Result of query : {{ msg }}
-     <h2><a href = "\">go back to home page</a></h2>
 
      <h2>Player: {{rows["header"][0]}}</h2>
      <b>{{rows["header"][1]}}</b></br>
@@ -34,9 +34,9 @@ table {
        </tr>
        {% for full_tourney in rows["tournaments"] %}
            <tr>
-             {% for item in full_tourney["header"] %}
-              <td> {{ item }} </td>
-              {% endfor %}
+              <td> {{ full_tourney["header"][0] }} </td>
+              <td> {{ full_tourney["header"][1] }} </td>
+              <td align="right"> {{ full_tourney["header"][2] }} </td>
            </tr>
         {% endfor %}
      </table>
@@ -55,17 +55,17 @@ table {
           <h4>{{"Wins: "}} </h4>
           <table>
             <tr>
-              <th>player 1</th>
-              <th>player 2</th>
+              <th>opponent</th>
               <th>set count</th>
-              <th>average</th>
-              <th>standard deviation</th>
+              <th>ave</th>
+              <th>std</th>
             </tr>
             {% for match in full_tourney["wins"] %}
                   <tr>
-                    {% for item in match %}
-                        <td> {{ item }} </td>
-                    {% endfor %}
+                        <td align="left"> {{ match[0] }} </td>
+                        <td align="center"> {{ match[1] }}-{{ match[2] }} </td>
+                        <td align="center"> {{ match[3] }} </td>
+                        <td align="center"> {{ match[4] }} </td>
                   </tr>
             {% endfor %}
           </table>
@@ -73,11 +73,18 @@ table {
 
           <h4>{{"Losses: "}} </h4>
           <table>
+            <tr>
+              <th>opponent</th>
+              <th>set count</th>
+              <th>ave</th>
+              <th>std</th>
+            </tr>
             {% for match in full_tourney["losses"] %}
                   <tr>
-                    {% for item in match %}
-                        <td> {{ item }} </td>
-                    {% endfor %}
+                        <td align="left"> {{ match[0] }} </td>
+                        <td align="center"> {{ match[2] }}-{{ match[1] }} </td>
+                        <td align="center"> {{ match[3] }} </td>
+                        <td align="center"> {{ match[4] }} </td>
                   </tr>
             {% endfor %}
           </table>

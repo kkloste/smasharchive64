@@ -46,9 +46,10 @@ def listhtoh():
 @app.route('/scouter',methods = ['GET'])
 def scouter():
     match_record = obtain_player_stats.get_trueskill();
+    _, tourney_list = obtain_player_stats.get_detailed_tournament_info();
     avepower = sum( [float(x[1]) for x in match_record] )/len(match_record)
     avepower = float( "{0:.1f}".format(avepower) )
-    return render_template("scouter.php",rows = [match_record, len(match_record), avepower])
+    return render_template("scouter.php",rows = [match_record, len(match_record), avepower, tourney_list])
 
 if __name__ == '__main__':
     app.run(debug = True)

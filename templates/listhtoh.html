@@ -13,20 +13,36 @@ table {
 
    <body>
 
+     <h1><a href = "\">Smash Archive</a></h1>
      Result of query : {{ msg }}
-     <h2><a href = "\">go back to home page</a></h2>
-
-     <h2>{{rows["header"][0]}}  VS  {{rows["header"][1]}}</h2>
-     <!-- output = { "header":[], "tournaments": [(tourneyname, date, entrants, [] )] }
+     <h2>{{rows["header"][0]}}  <i>-vs-</i>  {{rows["header"][1]}}</h2>
+     <!--
+          output = { "header":[], "tournaments": [(tourneyname, date, entrants, [] )] }
       -->
+      Prediction: roughly {{ rows["prediction"][0] }}% chance that {{ rows["prediction"][1] }} wins.<br></br>
+
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Power level</th>
+          <th>Standard deviation</th>
+        </tr>
+        {% for item in rows["playerinfo"] %}
+          <tr>
+            <td>{{item[0]}}</td>
+            <td>{{item[1][0]}}</td>
+            <td>{{item[1][1]}}</td>
+          </tr>
+        {% endfor %}
+      </table>
 
      <h3>List all tournaments that both players attended:</h3>
      {% for tourney in rows["tournaments"] %}
         <h4> {{ tourney[0] }}, on {{ tourney[1]}}, had {{ tourney[2]}} entrants.</h4>
            {% for item in tourney[3] %}
-            <br> {{ item[0] }} won: {{ item[1] }}-{{ item[2] }} </br>
-            {% endfor %}
-    {% endfor %}
+             {{ item[0] }} won: {{ item[1] }}-{{ item[2] }} <br>
+           {% endfor %}
+     {% endfor %}
 
    </body>
 </html>
