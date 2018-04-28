@@ -2617,7 +2617,7 @@ antwon420,sinbad,0,2,0,SMASH CONFERENCE LXIX
 bamster,dam_tewton,1,1,2,SMASH CONFERENCE LXIX
 marbles,david barker,0,2,0,SMASH CONFERENCE LXIX
 greginator,meowmix,0,2,0,SMASH CONFERENCE LXIX
-barksanchez,tubby!,0,2,0,SMASH CONFERENCE LXIX
+brody,tubby!,0,2,0,SMASH CONFERENCE LXIX
 deathcpo,fil,0,2,0,SMASH CONFERENCE LXIX
 sheermadness,therm,0,2,0,SMASH CONFERENCE LXIX
 señorhen10r,superderekfan,0,2,1,SMASH CONFERENCE LXIX
@@ -2627,14 +2627,14 @@ dtan,cane ut,0,2,0,SMASH CONFERENCE LXIX
 shears,antwon420,0,2,0,SMASH CONFERENCE LXIX
 wizzrobe,dam_tewton,0,2,0,SMASH CONFERENCE LXIX
 marbles,greginator,0,2,0,SMASH CONFERENCE LXIX
-barksanchez,deathcpo,0,2,0,SMASH CONFERENCE LXIX
+brody,deathcpo,0,2,0,SMASH CONFERENCE LXIX
 sheermadness,señorhen10r,0,2,0,SMASH CONFERENCE LXIX
 kerokeroppi,ctg,0,2,0,SMASH CONFERENCE LXIX
 dtan,shears,0,2,0,SMASH CONFERENCE LXIX
 wizzrobe,marbles,0,2,0,SMASH CONFERENCE LXIX
-barksanchez,sheermadness,0,2,0,SMASH CONFERENCE LXIX
+brody,sheermadness,0,2,0,SMASH CONFERENCE LXIX
 kerokeroppi,dtan,1,2,3,SMASH CONFERENCE LXIX
-wizzrobe,barksanchez,0,3,0,SMASH CONFERENCE LXIX
+wizzrobe,brody,0,3,0,SMASH CONFERENCE LXIX
 dtan,wizzrobe,1,1,3,SMASH CONFERENCE LXIX
 wizzrobe,kerokeroppi,0,3,0,SMASH CONFERENCE LXIX
 yrn,caleb,0,2,0,SMASH CONFERENCE LXIX
@@ -2663,8 +2663,8 @@ shears,greginator,0,2,0,SMASH CONFERENCE LXIX
 marbles,loto,0,3,0,SMASH CONFERENCE LXIX
 ctg,shears,0,3,0,SMASH CONFERENCE LXIX
 kerokeroppi,marbles,0,3,0,SMASH CONFERENCE LXIX
-barksanchez,ctg,0,3,2,SMASH CONFERENCE LXIX
-kerokeroppi,barksanchez,0,3,0,SMASH CONFERENCE LXIX
+brody,ctg,0,3,2,SMASH CONFERENCE LXIX
+kerokeroppi,brody,0,3,0,SMASH CONFERENCE LXIX
 dtan,kerokeroppi,1,0,3,SMASH CONFERENCE LXIX
 wizzrobe,puncayshun,0,2,0,SSC 2017
 ajbcdefg,hiddenmi$t,0,2,0,SSC 2017
@@ -6344,6 +6344,107 @@ kelvinheit,gildo,1,1,2,SuperBoomed
 prime,spongy,1,1,2,SuperBoomed
 gildo,spongy,1,0,2,SuperBoomed
 bigbeaver,spongy,1,1,3,SuperBoomed
+gerson,madrush,0,2,0,Sunset Blast
+gerson,weedlypuff,0,2,0,Sunset Blast
+gerson,zuber,0,2,0,Sunset Blast
+gerson,racilor,0,2,0,Sunset Blast
+gerson,darkhorse,0,2,0,Sunset Blast
+madrush,zuber,0,2,1,Sunset Blast
+weedlypuff,madrush,1,0,2,Sunset Blast
+zuber,weedlypuff,0,2,0,Sunset Blast
+zuber,racilor,0,2,1,Sunset Blast
+zuber,darkhorse,1,0,2,Sunset Blast
+racilor,madrush,1,1,2,Sunset Blast
+racilor,weedlypuff,0,2,0,Sunset Blast
+darkhorse,madrush,1,1,2,Sunset Blast
+darkhorse,weedlypuff,0,2,0,Sunset Blast
+darkhorse,racilor,0,2,0,Sunset Blast
+shears,cochran,0,2,0,Sunset Blast
+dogs_johnson,cover,0,2,0,Sunset Blast
+shunkun,moustasher,1,0,2,Sunset Blast
+tavomono,cochran,0,2,0,Sunset Blast
+shears,moustasher,0,2,0,Sunset Blast
+dogs_johnson,shunkun,0,2,0,Sunset Blast
+tavomono,cover,0,2,0,Sunset Blast
+cochran,moustasher,1,0,2,Sunset Blast
+shears,dogs_johnson,1,1,2,Sunset Blast
+tavomono,moustasher,0,2,0,Sunset Blast
+cover,shunkun,0,2,0,Sunset Blast
+cochran,dogs_johnson,1,0,2,Sunset Blast
+tavomono,shunkun,0,2,0,Sunset Blast
+moustasher,dogs_johnson,1,0,2,Sunset Blast
+cover,shears,0,2,1,Sunset Blast
+tavomono,dogs_johnson,0,2,1,Sunset Blast
+shunkun,shears,1,0,2,Sunset Blast
+cover,cochran,0,2,0,Sunset Blast
+tavomono,shears,1,1,2,Sunset Blast
+shunkun,cochran,1,0,2,Sunset Blast
+moustasher,cover,1,1,2,Sunset Blast
+jaimehr,rillocks,0,2,0,Sunset Blast
+gt,inukem,0,2,0,Sunset Blast
+cesar,rillocks,0,2,0,Sunset Blast
+jaimehr,inukem,0,2,0,Sunset Blast
+bon,gt,0,2,0,Sunset Blast
+jaimehr,bon,0,2,0,Sunset Blast
+cesar,inukem,0,2,0,Sunset Blast
+rillocks,bon,1,0,2,Sunset Blast
+cesar,gt,0,2,0,Sunset Blast
+inukem,bon,1,0,2,Sunset Blast
+cesar,bon,0,2,0,Sunset Blast
+gt,jaimehr,1,0,2,Sunset Blast
+cesar,jaimehr,1,1,2,Sunset Blast
+gt,rillocks,0,2,0,Sunset Blast
+josh brody,ferguz,0,2,0,Sunset Blast
+gilkaoz,kali mist,0,2,1,Sunset Blast
+k rool,pupperina,0,2,0,Sunset Blast
+mariguas,ferguz,0,2,0,Sunset Blast
+josh brody,pupperina,0,2,0,Sunset Blast
+gilkaoz,k rool,0,2,0,Sunset Blast
+mariguas,kali mist,0,2,0,Sunset Blast
+ferguz,pupperina,1,1,2,Sunset Blast
+josh brody,gilkaoz,0,2,0,Sunset Blast
+mariguas,pupperina,0,2,0,Sunset Blast
+kali mist,k rool,1,0,2,Sunset Blast
+ferguz,gilkaoz,1,0,2,Sunset Blast
+mariguas,k rool,0,2,0,Sunset Blast
+pupperina,gilkaoz,1,0,2,Sunset Blast
+kali mist,josh brody,1,0,2,Sunset Blast
+mariguas,gilkaoz,0,2,0,Sunset Blast
+k rool,josh brody,1,0,2,Sunset Blast
+kali mist,ferguz,0,2,0,Sunset Blast
+mariguas,josh brody,0,2,0,Sunset Blast
+k rool,ferguz,0,2,1,Sunset Blast
+pupperina,kali mist,0,2,1,Sunset Blast
+gerson,gt,0,2,0,Sunset Blast
+dogs_johnson,gilkaoz,1,1,2,Sunset Blast
+mariguas,cover,0,2,0,Sunset Blast
+cesar,darkhorse,0,2,1,Sunset Blast
+tavomono,k rool,0,2,0,Sunset Blast
+josh brody,bon,0,2,0,Sunset Blast
+jaimehr,zuber,0,2,0,Sunset Blast
+madrush,shears,1,0,2,Sunset Blast
+gerson,gilkaoz,0,2,0,Sunset Blast
+mariguas,cesar,0,2,1,Sunset Blast
+tavomono,josh brody,0,2,1,Sunset Blast
+jaimehr,shears,0,2,0,Sunset Blast
+gerson,mariguas,0,3,1,Sunset Blast
+tavomono,jaimehr,0,3,1,Sunset Blast
+gerson,tavomono,0,3,1,Sunset Blast
+gerson,tavomono,0,3,2,Sunset Blast
+gt,dogs_johnson,1,0,2,Sunset Blast
+cover,darkhorse,0,2,0,Sunset Blast
+k rool,bon,1,0,2,Sunset Blast
+zuber,madrush,0,2,1,Sunset Blast
+shears,dogs_johnson,0,2,1,Sunset Blast
+josh brody,cover,0,2,0,Sunset Blast
+cesar,bon,0,2,0,Sunset Blast
+gilkaoz,zuber,0,2,0,Sunset Blast
+shears,josh brody,1,1,3,Sunset Blast
+cesar,gilkaoz,0,3,1,Sunset Blast
+mariguas,josh brody,0,3,1,Sunset Blast
+jaimehr,cesar,0,3,1,Sunset Blast
+mariguas,jaimehr,0,3,0,Sunset Blast
+tavomono,mariguas,0,3,1,Sunset Blast
 dr. grin,supernuggit,0,2,0,Genesis 5
 panda,zerobombjake,0,2,1,Genesis 5
 fukurou,supernuggit,0,2,0,Genesis 5
