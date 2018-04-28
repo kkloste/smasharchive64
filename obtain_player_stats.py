@@ -262,15 +262,8 @@ if __name__ == "__main__":
     """
     parser = argparse.ArgumentParser(description='Print record of a player.')
     parser.add_argument('input_player', help='Handle of a player in the database', type=str)
-    parser.add_argument('--recompile', dest='recompile', action='store_const',
-                        const=True, default=False,
-                        help='Re-compile match archive')
 
     args = parser.parse_args()
-
-    if args.recompile:
-        print("Re-compiling match archive.")
-        aggregate_tournament_csv()
 
     input_plyr = args.input_player
     get_player_record(input_plyr)
