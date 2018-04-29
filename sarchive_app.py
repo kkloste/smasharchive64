@@ -36,11 +36,12 @@ def listseeding():
         return render_template("listseeding.html",msg = msg,rows = sorted_plist)
 
 
-@app.route('/list',methods = ['POST'])
+@app.route('/list',methods = ['GET'])
 def list():
     msg = "No record of player in database. Pwned."
-    if request.method == 'POST':
-        nm = request.form['nm']
+    if request.method == 'GET':
+        # nm = request.form['nm']
+        nm = request.args.get("nm")
         player_record = obtain_player_stats.get_player_record(nm);
         if player_record == None:
             return render_template("failed.html",msg = msg)
