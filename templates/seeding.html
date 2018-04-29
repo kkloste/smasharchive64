@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+   <body>
+
+     <h1><a href = "\">Smash Archive</a></h1>
+      <form action = "{{ url_for('listseeding') }}" method = "POST">
+         <h3>Enter a list of player handles to sort. Each player handle must be on a new line.</h3>
+         Name<br>
+         <input type = "text" name = "playerlist" /></br>
+         <input type="submit">
+      </form>
+
+   </body>
+</html>

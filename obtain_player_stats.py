@@ -33,6 +33,17 @@ def get_trueskill_list():
             player_ratings[playername] = [rating, sigma_rating]
     return player_ratings
 
+def sort_players(plist):
+    sorted_plist = []
+    p_ratings = get_trueskill_list()
+    for player in plist:
+        p_rating = 0
+        if player in p_ratings:
+
+            p_rating = float(get_rating_text(p_ratings[player])[0])
+        sorted_plist.append( (player, p_rating) )
+
+    return sorted(sorted_plist, key=lambda x: x[1], reverse=True)
 
 def get_detailed_tournament_info():
     # Generate tournament dictionary

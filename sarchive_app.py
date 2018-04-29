@@ -7,6 +7,10 @@ import obtain_player_stats
 def home():
     return render_template('home.html')
 
+@app.route('/failed')
+def failed():
+    return render_template('failed.html')
+
 @app.route('/singles')
 def singles():
     return render_template('singlessearch.html')
@@ -15,9 +19,22 @@ def singles():
 def htoh():
     return render_template('headtohead.html')
 
-# @app.route('/failed')
-# def failed():
-#     return render_template('failed.html')
+@app.route('/seeding')
+def seeding():
+    return render_template('seeding.html')
+
+@app.route('/listseeding',methods = ['POST'])
+def listseeding():
+    msg = "No record of player in database. Pwned."
+    plist = request.form['playerlist']
+    plist_parts = plist.strip().split(',') # split('\n')
+    sorted_plist = obtain_player_stats.sort_players(plist_parts);
+    if sorted_plist == None:
+        return render_template("failed.html",msg = msg)
+    else:
+        msg = "Successful retrieval"
+        return render_template("listseeding.html",msg = msg,rows = sorted_plist)
+
 
 @app.route('/list',methods = ['POST'])
 def list():

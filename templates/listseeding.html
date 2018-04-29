@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<style>
+table, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+table{counter-reset:section;}
+.count:before
+{
+counter-increment:section;
+content:counter(section);
+}
+</style>
+
+   <body>
+
+     <h1><a href = "\">Smash Archive</a></h1>
+     Result of query : {{ msg }}
+
+     <h2>Suggested seeding</h2>
+     Players listed in descending order of suggested seed.
+     Unknown players listed last by default, with a rating of "0".
+
+
+      <table>
+        <tr>
+          <th>Suggested Seed</th>
+          <th>Player</th>
+          <th>Power level</th>
+        </tr>
+        {% for item in rows %}
+          <tr>
+            <td class="count"></td>
+            <td>{{item[0]}}</td>
+            <td>{{item[1]}}</td>
+          </tr>
+        {% endfor %}
+      </table>
+
+
+
+   </body>
+</html>
