@@ -7,7 +7,6 @@
 """
 
 import collections
-import os
 import argparse
 from scipy.special import erf as erf
 from math import sqrt as sqrt
@@ -19,9 +18,10 @@ def get_rating_text(pstat):
     sig = "{:.1f}".format(pstat[1])
     return [mu, sig]
 
+
 def get_trueskill_list():
     player_ratings = {}
-    with open('./data/64SinglesTrueSkill.csv','r') as finput:
+    with open('./data/64SinglesTrueSkill.csv', 'r') as finput:
         for line in finput:
             parts = line.strip().split(',')
             if 'player,mu,sigma,wins,losses,sets' in line:
@@ -33,6 +33,7 @@ def get_trueskill_list():
             player_ratings[playername] = [rating, sigma_rating]
     return player_ratings
 
+
 def sort_players(plist):
     sorted_plist = []
     p_ratings = get_trueskill_list()
@@ -41,9 +42,10 @@ def sort_players(plist):
         if player in p_ratings:
 
             p_rating = float(get_rating_text(p_ratings[player])[0])
-        sorted_plist.append( (player, p_rating) )
+        sorted_plist.append((player, p_rating))
 
     return sorted(sorted_plist, key=lambda x: x[1], reverse=True)
+
 
 def get_detailed_tournament_info():
     # Generate tournament dictionary
@@ -58,11 +60,13 @@ def get_detailed_tournament_info():
             parts = line.strip().split(',')
             tournamentlist[parts[1]] = parts[0]  # map slug to abbreviated name
             # convert date to list
-            dateobj = [ int(x) for x in parts[2].split('-') ]
-            tourneyinfo_dict[parts[0]] = [parts[1], dateobj, int(parts[4])]  # slug, date, entrants
-            tourneyinfo_list.append( [parts[0], dateobj, int(parts[4]) ] )
+            dateobj = [int(x) for x in parts[2].split('-')]
+            # slug, date, entrants
+            tourneyinfo_dict[parts[0]] = [parts[1], dateobj, int(parts[4])]
+            tourneyinfo_list.append([parts[0], dateobj, int(parts[4])])
 
-    tourneyinfo_list.sort(key=lambda x:x[1], reverse=True)  # Sorted so most recent tournament is first.
+    # Sorted so most recent tournament is first.
+    tourneyinfo_list.sort(key=lambda x: x[1], reverse=True)
     return tourneyinfo_dict, tourneyinfo_list
 
 
@@ -83,13 +87,13 @@ def get_player_record(input_player='kerokeroppi'):
 
     # First get tournament list:
     playerinfo = {}
-    playertournaments = get_player_tournaments()
-
-    if input_player not in playertournaments:
-        return None
-
-    for tourney in playertournaments[input_player]:
-        playerinfo[tourney] = {'wins':[], 'losses':[]}
+    # playertournaments = get_player_tournaments()
+    #
+    # if input_player not in playertournaments:
+    #     return None
+    #
+    # for tourney in playertournaments[input_player]:
+    #     playerinfo[tourney] = {'wins': [], 'losses': []}
 
     # iterate over full dataset
     with open('./data/all-stats.csv', 'r') as finput:
@@ -115,18 +119,23 @@ def get_player_record(input_player='kerokeroppi'):
                 if input_player_number == winning_player:
                     key_to_use = 'wins'
 
-                playerinfo[tourney_name][key_to_use].append( [opponent_name,  max(p1wins, p2wins), min(p1wins, p2wins) ] )
+                if tourney_name not in playerinfo:
+                    playerinfo[tourney_name] = {'wins': [], 'losses': []}
+                playerinfo[tourney_name][key_to_use].append(
+                    [opponent_name, max(p1wins, p2wins), min(p1wins, p2wins)])
 
     # Sort tournament list with most recent results first
     tourneyinfo_dict, tourneyinfo_list = get_detailed_tournament_info()
 
-    player_tourney_list = [ ( x, tourneyinfo_dict[x]) for x in playerinfo.keys() ]
-    player_tourney_list.sort(key=lambda x:x[1][1], reverse=True)  # Sorted so most recent tournament is first.
+    player_tourney_list = [(x, tourneyinfo_dict[x]) for x in playerinfo.keys()]
+    # Sorted so most recent tournament is first.
+    player_tourney_list.sort(key=lambda x: x[1][1], reverse=True)
 
     # Print results
     player_ratings = get_trueskill_list()
     print("\n"+input_player)
-    print("{s:{charused}^{num}}".format(s='',charused="=",num=len(input_player)) )
+    print("{s:{charused}^{num}}".format(s='', charused="=",
+                                        num=len(input_player)))
     string_power_level1 = "Power level: {:>6.1f} ".format(player_ratings[input_player][0])
     string_power_level2 = "(\t larger = better, boom is 50+, new-comers are ~10)"
     print(string_power_level1, string_power_level2)
@@ -135,7 +144,10 @@ def get_player_record(input_player='kerokeroppi'):
     print(string_accuracy1, string_accuracy2)
 
     player_history = {}
-    player_history["header"] = [ input_player, string_power_level1, string_power_level2, string_accuracy1, string_accuracy2 ]
+    player_history["header"] = [input_player, string_power_level1,
+                                string_power_level2,
+                                string_accuracy1,
+                                string_accuracy2]
     player_history["tournaments"] = []
 
     def printing_result(match_row, player_ratings):
