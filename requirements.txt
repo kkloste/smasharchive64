@@ -19,6 +19,6 @@ pytest==3.0.5
 python-dateutil==2.6.0
 python-slugify==1.2.5
 pytimeparse==1.1.7
-requests==2.12.4
+requests==2.20.0
 requests-oauthlib==0.8.0
 scipy==0.18.1
