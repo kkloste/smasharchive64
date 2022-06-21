@@ -1,7 +1,7 @@
 Flask==1.0.0
 Flask-Cors==3.0.9
 future==0.16.0
-numpy==1.11.3
+numpy==1.22.0
 numpydoc==0.6.0
 pandas==0.19.2
 parsedatetime==2.4
